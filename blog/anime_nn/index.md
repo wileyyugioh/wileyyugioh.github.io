@@ -1,9 +1,11 @@
 # Lazily building a smug anime face neural network for kicks
 
-![Image of Nightmare Incarnate](image1.jpg)
+<p>
+    <img src="image1.jpg" alt="Image of Nightmare Incarnate" />
+</p>
 
 > And if you gaze long into an abyss, the abyss also gazes into you.
-> - Friedrich Nietzsche
+> \- Friedrich Nietzsche
 
 Summer vacation is a time to kickback, relax, and finally pursue passions now that school is finally over (at least for three months). Some people use the time to kayak, bike, or travel, but unfortunately for me I don't like getting wet, my bike is broken, and I don't have enough money to travel. I decided to spend the time working on some deep learning stuff to kill time.
 
