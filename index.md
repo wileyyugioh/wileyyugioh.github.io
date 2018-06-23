@@ -1,5 +1,5 @@
 ---
-title:
+title: Home
 ---
 ### Stuff I've done
 
