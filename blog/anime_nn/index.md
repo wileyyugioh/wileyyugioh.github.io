@@ -1,9 +1,7 @@
-[Home](index.md)
-
 # Lazily building a smug anime face neural network for kicks
 
 ![Image of Nightmare Incarnate]
-(image1.png)
+(image1.jpg)
 
 > And if you gaze long into an abyss, the abyss also gazes into you.
 > - Friedrich Nietzsche
