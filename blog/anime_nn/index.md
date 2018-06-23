@@ -1,6 +1,6 @@
 # Lazily building a smug anime face neural network for kicks
 
-<p>
+<p align="center">
     <img src="image1.jpg" alt="Image of Nightmare Incarnate" />
 </p>
 
