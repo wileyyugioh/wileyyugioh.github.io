@@ -1,9 +1,3 @@
----
-layout: post
-title: Lazily building a smug anime face neural network for kicks
-date: 2018-06-23
----
-
 # Lazily building a smug anime face neural network for kicks
 
 <p align="center">
