@@ -1,1 +1,9 @@
 title: Wiley's Page
+
+defaults
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "posts"
