@@ -5,16 +5,16 @@ title: Archive
 ### Archive
 
 <ul>
-  {% for post in site.posts %}
-    {% assign m = post.date | date: "%B" %}
-    {% case m %}
-        {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
-        {% when 'September' %}Sept.
-        {% else %}{{ page.date | date: "%b" }}.
+    {% for post in site.posts %}
+    {% assign temp = post.date | date: "%B" %}
+    {% case temp %}
+        {% when 'April' or 'May' or 'June' or 'July' %}{% assign m = temp %}
+        {% when 'September' %}{% assign m = "Sept." %}
+        {% else %}{% assign m = post.date | date: "%b" %}.
     {% endcase %}
     <li>
         <a href="{{ post.url }}">{{ m }} {{ post.date | date: "%-d, %Y" }}: {{ post.title }}
     </a>
     </li>
-  {% endfor %}
+    {% endfor %}
 </ul>
