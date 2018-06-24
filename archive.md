@@ -14,7 +14,6 @@ title: Archive
     {% endcase %}
     <li>
         {{ m }} {{ post.date | date: "%-d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-    </a>
     </li>
     {% endfor %}
 </ul>
