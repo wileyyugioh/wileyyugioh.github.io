@@ -21,8 +21,7 @@ title: Home
         {% else %}{% assign m = post.date | date: "%b" %}.
     {% endcase %}
     <li>
-        <a href="{{ post.url }}">{{ m }} {{ post.date | date: "%-d, %Y" }}: {{ post.title }}
-    </a>
+        {{ m }} {{ post.date | date: "%-d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>
