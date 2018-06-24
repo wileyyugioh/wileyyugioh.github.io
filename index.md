@@ -25,4 +25,4 @@ title: Home
     {% endfor %}
 </ul>
 
-- [*Archive*](archive.md)
+- [**Archive**](archive.md)
