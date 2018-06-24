@@ -6,7 +6,7 @@ title: Archive
 
 <ul>
   {% for post in site.posts %}
-    {% assign m = page.date | date: "%B" %}
+    {% assign m = post.date | date: "%B" %}
     {% case m %}
         {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
         {% when 'September' %}Sept.
