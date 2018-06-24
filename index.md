@@ -13,11 +13,11 @@ title: Home
 ### Writeups I think are neat
 
 <ul>
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit: 5%}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date | date: "%d %B %Y" }}: {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
-- [*Other posts*](archive.md)
+- [*Archive*](archive.md)
