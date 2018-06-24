@@ -1,6 +1,6 @@
 title: Wiley's Page
 
-defaults
+defaults:
   -
     scope:
       path: "_posts"
