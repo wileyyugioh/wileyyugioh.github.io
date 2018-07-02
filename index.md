@@ -18,7 +18,7 @@ title: Home
     {% case temp %}
         {% when 'April' or 'May' or 'June' or 'July' %}{% assign m = temp %}
         {% when 'September' %}{% assign m = "Sept." %}
-        {% else %}{% assign m = post.date | date: "%b" %}.
+        {% else %}{% assign m = post.date | date: "%b". %}
     {% endcase %}
     <li>
         {{ m }} {{ post.date | date: "%-d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
