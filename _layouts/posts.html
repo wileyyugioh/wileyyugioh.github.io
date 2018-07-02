@@ -2,22 +2,26 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<h3>
-{% assign d = page.date | date: "%-d" %} 
-{% assign m = page.date | date: "%B" %} 
-
-{% case m %}
-    {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
-    {% when 'September' %}Sept.
-    {% else %}{{ page.date | date: "%b" }}.
-{% endcase %}
-{% case d %}
-    {% when '1' or '21' or '31' %}{{ d }}st
-    {% when '2' or '22' %}{{ d }}nd
-    {% when '3' or '23' %}{{ d }}rd
-    {% else %}{{ d }}th
-{% endcase %}, 
-{{ page.date | date: "%Y" }}
-</h3>
+<h1>
+{{ page.title }}
+<br>
+<span style="font-size: 1.5rem">
+{% capture cache %}
+    {% assign temp_d = page.date | date: "%-d" %} 
+    {% assign temp_m = page.date | date: "%B" %} 
+    {% case temp_m %}
+        {% when 'April' or 'May' or 'June' or 'July' %}{% assign m = temp_m %}
+        {% when 'September' %}{% assign m = Sept. %}
+        {% else %}{{ assign m = page.date | date: "%b". }}
+    {% endcase %}
+    {% case temp_d %}
+        {% when '1' or '21' or '31' %}{% assign d = temp_d | append st %}
+        {% when '2' or '22' %}{% assign d = temp_d | append nd %}
+        {% when '3' or '23' %}{% assign d = temp_d | append rd %}
+        {% else %}{% assign d = temp_d | append th %}
+    {% endcase %}
+{% endcapture %}{% assign cache = nil %}
+{{ m }} {{ d }}, {{ page.date | date: "%Y" }}
+</span>
+</h1>
 {{ content }}

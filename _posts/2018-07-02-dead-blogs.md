@@ -4,9 +4,7 @@ title: On The Topic Of Dead Blogs
 
 A quick google search of "dead blogs" brings up 492 million results. The third result of this list is [thebestdeadblogs.blogspot.com](https://thebestdeadblogs.blogspot.com), a blogspot which compiles and collects various dead blogs. The last post on thebestdeadblogs was in 2006.
 
-<p align="center">
-    –––
-</p>
+---
 
 Reading through these abandoned blogs gives me this unique feeling of nostalgia tinged with sadness. It's the same feeling I get when I see that a beloved family-run restaurant closed down because of slow business, or when I said goodbye to friends, knowing that I would never meet them again. The Japanese have a term for this sadness of the passing of life, "[mono no aware](https://en.wikipedia.org/wiki/Mono_no_aware)."
 

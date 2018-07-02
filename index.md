@@ -15,21 +15,23 @@ title: Home
 <ul>
     {% for post in site.posts limit:5 %}
     <li>
-    {% assign d = post.date | date: "%-d" %} 
-    {% assign m = post.date | date: "%B" %} 
-    {% case m %}
-        {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
-        {% when 'September' %}Sept.
-        {% else %}{{ post.date | date: "%b" }}.
-    {% endcase %}
-    {% case d %}
-        {% when '1' or '21' or '31' %}{{ d }}st
-        {% when '2' or '22' %}{{ d }}nd
-        {% when '3' or '23' %}{{ d }}rd
-        {% else %}{{ d }}th
-    {% endcase %}, 
-    {{ post.date | date: "%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+    {% capture cache %}
+        {% assign temp_d = page.date | date: "%-d" %} 
+        {% assign temp_m = page.date | date: "%B" %} 
+        {% case temp_m %}
+            {% when 'April' or 'May' or 'June' or 'July' %}{% assign m = temp_m %}
+            {% when 'September' %}{% assign m = Sept. %}
+            {% else %}{{ assign m = page.date | date: "%b". }}
+        {% endcase %}
+        {% case temp_d %}
+            {% when '1' or '21' or '31' %}{% assign d = temp_d | append st %}
+            {% when '2' or '22' %}{% assign d = temp_d | append nd %}
+            {% when '3' or '23' %}{% assign d = temp_d | append rd %}
+            {% else %}{% assign d = temp_d | append th %}
+        {% endcase %}
+    {% endcapture %}{% assign cache = nil %}
+    {{ m }} {{ d }}, {{ page.date | date: "%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
-    <li>[**Archive**](archive.md)</li>
+    <li><a href="/archive.md"><strong>Archive</strong></a></li>
 </ul>
