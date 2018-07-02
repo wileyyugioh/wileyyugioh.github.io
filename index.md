@@ -15,12 +15,12 @@ title: Home
 <ul>
     {% for post in site.posts limit:5 %}
     <li>
-    {% assign d = page.date | date: "%-d" %} 
-    {% assign m = page.date | date: "%B" %} 
+    {% assign d = post.date | date: "%-d" %} 
+    {% assign m = post.date | date: "%B" %} 
     {% case m %}
         {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
         {% when 'September' %}Sept.
-        {% else %}{{ page.date | date: "%b" }}.
+        {% else %}{{ post.date | date: "%b" }}.
     {% endcase %}
     {% case d %}
         {% when '1' or '21' or '31' %}{{ d }}st
@@ -28,7 +28,7 @@ title: Home
         {% when '3' or '23' %}{{ d }}rd
         {% else %}{{ d }}th
     {% endcase %}, 
-    {{ page.date | date: "%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+    {{ post.date | date: "%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
     <li>[**Archive**](archive.md)</li>
