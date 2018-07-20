@@ -12,5 +12,6 @@ Creative Labs does not allow you to only install audio drivers through the provi
     <img src="/assets/2018-07-20/image1.png" alt="Image of 7-Zip GUI" />
 </p>
 
+{:start="4"}
 4. Open the extracted `Program` folder and run `Setup.exe`. Afterwards, there will be *no* windows that open. Although it may seem like nothing happened, after a while, your drivers will be installed.
 5. Verify the drivers were installed by clicking on the Speaker icon on the taskbar, where "(Sound Blaster Z)" should appear.
