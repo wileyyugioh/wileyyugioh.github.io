@@ -13,7 +13,7 @@ title: Home
 ### Writeups I think are neat
 
 <ul>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:2 %}
     <li>
     {% capture cache %}
         {% assign temp_d = post.date | date: "%-d" %} 
