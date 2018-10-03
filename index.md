@@ -4,7 +4,7 @@ title: Home
 
 ### Stuff I've done
 
-- [birddb - a crowd-sourced database of birds (may be down if I run out of hosting credit)](https://birddb.wileyy.com)
+- [birddb - a crowd-sourced database of birds (may be down if I run out of hosting credit)](https://github.com/wileyyugioh/birddb)
 
 - [NylonSock - a C++ networking library in the style of socket.io](https://github.com/wileyyugioh/NylonSock)
 
