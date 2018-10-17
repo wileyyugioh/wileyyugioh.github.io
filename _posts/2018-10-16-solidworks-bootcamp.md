@@ -19,5 +19,5 @@ Steps:
 </p>
 
 {:start="3"}
-3. Give it a cute name. Maybe, 'Solidworks 20XX Safe Mode```
+3. Give it a cute name. Maybe, 'Solidworks 20XX Safe Mode'
 4. Congrats! You now have a shortcut that launches Solidworks in safe mode. You can pin this to your taskbar or whatever.
