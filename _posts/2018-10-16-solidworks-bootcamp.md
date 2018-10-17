@@ -15,3 +15,7 @@ Steps:
 2. Copy paste ```"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\sldworks.exe" /SWSafeMode /SWDisableExitApp``` into the location bar.
 3. Give it a cute name. Maybe, 'Solidworks 20XX Safe Mode```
 4. Congrats! You now have a shortcut that launches Solidworks in safe mode. You can pin this to your taskbar or whatever.
+
+<p align="center">
+    <img src="/assets/2018-10-16/image1.jpg" alt="Image of creating shortcut" />
+</p>
