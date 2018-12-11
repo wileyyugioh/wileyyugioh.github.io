@@ -8,15 +8,16 @@ layout: default
 <span style="font-size: 1.5rem; font-weight: normal;">
 {% include pretty_date.md date=page.date %}
 </span>
-</h1>
+<br>
 {% if site.tags != "" %}
     {% include collect_tags.md %}
 {% endif %}
-{{ content }}
-<span>Tags:
+<span style="font-size: 1rem; font-weight: normal;">Tags:
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     {% if forloop.first != true %}&nbsp;{% endif %}
     <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
   {% endfor %}
 </span>
+</h1>
+{{ content }}
