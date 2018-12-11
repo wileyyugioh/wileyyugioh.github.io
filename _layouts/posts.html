@@ -5,19 +5,19 @@ layout: default
 <h1>
 {{ page.title }}
 <br>
-<p style="font-size: 1.5rem; font-weight: normal; margin-top: .8rem; margin-bottom: 0rem;">
+<span class="spantitle" style="font-size: 1.5rem;">
 {% include pretty_date.md date=page.date %}
-</p>
+</span>
 <br>
 {% if site.tags != "" %}
     {% include collect_tags.md %}
 {% endif %}
-<p style="font-size: 1rem; font-weight: normal; margin-top: .8rem; margin-bottom: 0rem;">Tags:
+<span class="spantitle" style="font-size: 1rem;">Tags:
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     {% if forloop.first != true %}&nbsp;{% endif %}
     <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
   {% endfor %}
-</p>
+</span>
 </h1>
 {{ content }}
