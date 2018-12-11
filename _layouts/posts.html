@@ -8,13 +8,13 @@ layout: default
 {% include pretty_date.md date=page.date %}
 </span>
 {% if site.tags != "" %}
-    {% include collect_tags.md %}
+{% include collect_tags.md %}
 {% endif %}
 <span class="spantitle" style="font-size: 1rem;">Tags:
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     {% if forloop.first != true %}&nbsp;{% endif %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
+    <a href="/tag/{{ tag_name }}"><code style="white-space: nowrap;">{{ tag_name }}</code></a>
   {% endfor %}
 </span>
 </h1>

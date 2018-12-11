@@ -9,8 +9,8 @@ Creative Labs does not allow you to only install audio drivers through the provi
 2. Open the .exe file with an unarchiver. I am using 7-Zip.
 3. Navigate to `program files\Creative\Sound Blaster Z-Series\` and extract the `Program` folder.
 
-<p align="center">
-    <img src="/assets/2018-07-20/image1.png" alt="Image of 7-Zip GUI" />
+<p style="text-align:center">
+    <img src="/assets/2018-07-20/image1.png" alt="Image of 7-Zip GUI"/>
 </p>
 
 {:start="4"}
