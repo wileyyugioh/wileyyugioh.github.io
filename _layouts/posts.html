@@ -4,11 +4,9 @@ layout: default
 
 <h1>
 {{ page.title }}
-<br>
 <span class="spantitle" style="font-size: 1.5rem;">
 {% include pretty_date.md date=page.date %}
 </span>
-<br>
 {% if site.tags != "" %}
     {% include collect_tags.md %}
 {% endif %}
