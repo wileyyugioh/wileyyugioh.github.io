@@ -5,14 +5,14 @@ layout: default
 <h1>
 {{ page.title }}
 <br>
-<span style="font-size: 1.5rem; font-weight: normal;">
+<span style="font-size: 1.5rem; font-weight: normal; margin-top: .8rem; margin-bottom: 0rem;">
 {% include pretty_date.md date=page.date %}
 </span>
 <br>
 {% if site.tags != "" %}
     {% include collect_tags.md %}
 {% endif %}
-<span style="font-size: 1rem; font-weight: normal;">Tags:
+<span style="font-size: 1rem; font-weight: normal; margin-top: .8rem; margin-bottom: 0rem;">Tags:
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     {% if forloop.first != true %}&nbsp;{% endif %}
