@@ -13,9 +13,10 @@ layout: default
     {% include collect_tags.md %}
 {% endif %}
 {{ content }}
-<span>[
+<span>Tags:
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% if forloop.first != true}&nbsp;{% endif %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
   {% endfor %}
-]</span>
+</span>
