@@ -1,5 +1,6 @@
 ---
 title: Installing Only The Drivers From Creative Labs
+tags: info
 ---
 
 Creative Labs does not allow you to only install audio drivers through the provided installer, requiring a completely unnecessary "control panel" instead. This is a guide on how to get around that.

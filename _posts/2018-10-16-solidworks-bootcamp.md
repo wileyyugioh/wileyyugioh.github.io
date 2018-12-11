@@ -1,5 +1,6 @@
 ---
 title: Fixing Performance Issues With Solidworks On Bootcamp
+tags: info
 ---
 
 For some reason, Solidworks absolutely craps the bed in Bootcamp. The software works perfectly after a fresh re-install, but after a while it just...breaks. Opening any part/assembly instantly nukes the fps.

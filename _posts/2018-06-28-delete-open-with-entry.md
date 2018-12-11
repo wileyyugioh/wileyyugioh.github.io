@@ -1,5 +1,6 @@
 ---
 title: How To Delete An Open With Entry On Windows 10
+tags: info
 ---
 
 <p align="center">

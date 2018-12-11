@@ -1,5 +1,6 @@
 ---
 title: How To Get The Clamp-To-Edge Effect In Imagemagick
+tags: info
 ---
 
 <p align="center">

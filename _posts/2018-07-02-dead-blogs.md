@@ -1,5 +1,6 @@
 ---
 title: On The Topic Of Dead Blogs
+tags: muse
 ---
 
 A quick google search of "dead blogs" brings up 492 million results. The third result of this list is [thebestdeadblogs.blogspot.com](https://thebestdeadblogs.blogspot.com), a blogspot which compiles and collects various dead blogs. The last post on thebestdeadblogs was in 2006.

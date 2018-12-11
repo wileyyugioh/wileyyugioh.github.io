@@ -1,11 +1,16 @@
 title: Wiley's Page
 
 defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "posts"
+    -
+        scope:
+            path: "_posts"
+            type: "posts"
+        values:
+            layout: "posts"
+    -
+        scope:
+            path: "tag"
+        values:
+            layout: "tags"
 plugins:
-  - jekyll-sitemap
+    - jekyll-sitemap

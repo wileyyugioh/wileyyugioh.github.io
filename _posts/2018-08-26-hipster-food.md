@@ -1,5 +1,6 @@
 ---
 title: Thoughts On Hipster Food
+tags: muse
 ---
 
 I'm currently visiting the city of Austin, and while there wanted to try some of the cuisine. Austin is one of those curious little cities that are growing way too fast–I think it's the fastest growing city in the US–and with it comes growing pains such as the gentrification of neighborhoods. And of course, with gentrification comes hipster food.
