@@ -118,6 +118,10 @@ li {
     padding: 16px;
 }
 
+.markdown-body img {
+    max-width: 95%;
+}
+
 .rainbow {
     text-align: center;
     text-decoration: underline;
