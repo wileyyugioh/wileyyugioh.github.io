@@ -1,9 +1,8 @@
 ---
-layout: base
+layout: modernbase
 ---
 
-<div class="post">
-<h1>Tag: {{ page.tag }}</h1>
+<h1 class="rainbow rainbow-text-animated">Tag: {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
     {% if page.category == post.category %}
@@ -11,5 +10,4 @@ layout: base
     {% endif %}
 {% endfor %}
 </ul>
-</div>
 <hr>

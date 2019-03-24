@@ -16,7 +16,7 @@ Steps:
 2. Copy paste ```"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\sldworks.exe" /SWSafeMode /SWDisableExitApp``` into the location bar.
 
 <p style="text-align:center">
-    <img src="/assets/2018-10-16/image1.jpg" alt="Image of creating shortcut"/>
+    <img src="/assets/img/2018-10-16/image1.jpg" alt="Image of creating shortcut">
 </p>
 
 {:start="3"}

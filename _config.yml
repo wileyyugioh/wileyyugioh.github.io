@@ -1,16 +1,51 @@
 title: Wiley's Page
 
+theme: jekyll-theme-primer
+
 defaults:
     -
         scope:
-            path: "_posts"
+            path: "classic"
+        values:
+            category: "classic"
+            collection_url: /classic/
+            css_url: style.css
+            layout: "base"
+    -
+        scope:
+            path: "classic"
             type: "posts"
         values:
             layout: "posts"
     -
         scope:
-            path: "tag"
+            path: "classic/tag"
         values:
             layout: "tags"
+    -
+        scope:
+            path: "modern"
+        values:
+            category: "modern"
+            collection_url: /modern/
+            css_url: modernstyle.css
+            layout: "modernbase"
+    -
+        scope:
+            path: "modern"
+            type: "posts"
+        values:
+            layout: "modernposts"
+    -
+        scope:
+            path: "modern/tag"
+        values:
+            layout: "moderntags"
+
 plugins:
+    - jekyll-relative-links
     - jekyll-sitemap
+
+relative_links:
+  enabled: true
+  collections: true

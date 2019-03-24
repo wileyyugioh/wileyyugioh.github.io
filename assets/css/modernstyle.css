@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Schoolbell");
+
+body {
+    background-image: url("/assets/img/shared/pattern.jpg");
+}
+
+li {
+    list-style-type: none;
+}
+
+.spantitle {
+    display: block;
+    font-weight: normal;
+    margin-top: .8rem;
+    margin-bottom: 0rem;
+}
+
+.post-content {
+    font-family: "Schoolbell", cursive;
+    max-width: 95%;
+}
+
+.post-content img {
+    border: double purple;
+}
+
+.left > div {
+    font-family: "Schoolbell", cursive;
+    font-size: 1.5rem;
+    background-color: #ff9999;
+    border-radius: .5rem;
+    padding: .2rem;
+    border: none !important;
+    width: 90%;
+}
+
+.center-container > div {
+    display: table;
+    width: 95%;
+    text-align: center;
+    background-color: white;
+}
+
+.center-container div, .center-container ul, .center-container h1, .center-container h3 {
+    border: double black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-container > .main {
+    display: table;
+    table-layout: fixed;
+}
+
+.left {
+    display: table-cell !important;
+    width: 15%;
+}
+
+.right {
+    display: table-cell !important;
+    width: 85%;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.center-container h3 {
+    font-size: 3rem;
+}
+
+.center-container ul {
+    font-family: "Schoolbell", cursive;
+}
+
+.enter-header {
+    font-size: 2rem;
+}
+
+.enter {
+    display: table;
+    font-family: "Schoolbell", cursive;
+    font-size: 3rem;
+}
+
+.header {
+    display: flex !important;
+    justify-content: space-around;
+}
+
+.header > div {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.highlight pre {
+    overflow: auto;
+    padding: 16px;
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.rainbow-text-animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow-animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}

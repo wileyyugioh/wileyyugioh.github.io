@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="center-container">
+    <div class="header">
+        <img src="/assets/img/shared/dance.gif" alt="Dance" height="150">
+        <div class="no-border">
+            <img src="/assets/img/shared/logo.png" alt="Logo" width="650">
+            <div id="time"></div>
+        </div>
+        <img src="/assets/img/shared/dance.gif" alt="Dance" height="150">
+    </div>
+
+    <div class="main">
+        {% if page.nosidebar == nil %}
+        <div class="left">
+            <div><a href="{{ page.collection_url }}">{{ site.title }}</a></div>
+            <div><a href="{{ page.collection_url }}archive">Archive</a></div>
+            <div><a href="/">Exit</a></div>
+        </div>
+        <div class="right">
+            {{ content }}
+        </div>
+        {% else %}
+        {{ content }}
+        {% endif %}
+    </div>
+    <div><span>This site was last updated {{ site.time }}</span></div>
+</div>
+
+<script>
+    setInterval(function() {
+        document.getElementById("time").innerHTML = new Date();
+    }, 10);
+    document.getElementById("time").innerHTML = new Date();
+</script>

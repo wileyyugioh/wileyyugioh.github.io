@@ -4,7 +4,7 @@ tags: info
 ---
 
 <p style="text-align:center">
-    <img src="/assets/2018-08-02/image1.jpg" alt="Base image" height="250" width="250"/>
+    <img src="/assets/img/2018-08-02/image1.jpg" alt="Base image" height="250" width="250">
     <br>
     <em>The base image</em>
 </p>
@@ -26,7 +26,7 @@ Where you can set W and H to be your desired width and height respectively.
 This snippet resizes an image to 1000x1000.
 
 <p style="text-align:center">
-    <img src="/assets/2018-08-02/image2.jpg" alt="Clamp-to-edge image" height="250" width="250"/>
+    <img src="/assets/img/2018-08-02/image2.jpg" alt="Clamp-to-edge image" height="250" width="250">
     <br>
     <em>The final result</em>
 </p>
