@@ -60,6 +60,7 @@ li {
 
 .right {
     display: table-cell !important;
+    width: 66rem;
 }
 
 .no-border {
