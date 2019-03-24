@@ -24,16 +24,6 @@ li {
     border: double purple;
 }
 
-.left > div {
-    font-family: "Schoolbell", cursive;
-    font-size: 1.5rem;
-    background-color: #ff9999;
-    border-radius: .5rem;
-    padding: .2rem;
-    border: none !important;
-    width: 90%;
-}
-
 .center-container > div {
     display: table;
     width: 95%;
@@ -51,17 +41,25 @@ li {
 
 .center-container > .main {
     display: table;
-    table-layout: fixed;
 }
 
 .left {
     display: table-cell !important;
-    width: 15%;
+}
+
+
+.left > div {
+    font-family: "Schoolbell", cursive;
+    font-size: 1.5rem;
+    background-color: #ff9999;
+    border-radius: .5rem;
+    padding: .2rem;
+    border: none !important;
+    width: 4.5rem;
 }
 
 .right {
     display: table-cell !important;
-    width: 85%;
 }
 
 .no-border {
@@ -89,11 +87,30 @@ li {
 .header {
     display: flex !important;
     justify-content: space-around;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .header > div {
+    display: flex;
+    flex-direction: column;
     margin-left: 0;
     margin-right: 0;
+}
+
+.header > :not(.banner) > img {
+    flex-basis: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+    object-fit: contain;
+}
+
+.banner {
+    width: 60%;
+}
+
+.banner-img {
+    max-width: 100%;
 }
 
 .highlight pre {
