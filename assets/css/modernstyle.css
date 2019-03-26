@@ -49,10 +49,12 @@ body {
 
 .center-container > .main {
     display: table;
+    table-layout: fixed;
 }
 
 .left {
     display: table-cell !important;
+    width: 6rem;
 }
 
 
@@ -69,7 +71,6 @@ body {
 .right {
     display: table-cell !important;
     text-align: initial;
-    max-width: 66rem;
 }
 
 .no-border {
