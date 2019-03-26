@@ -15,9 +15,11 @@ layout: default
     <div class="main">
         {% if page.nosidebar == nil %}
         <div class="left">
-            <div><a href="{{ page.collection_url }}">{{ site.title }}</a></div>
-            <div><a href="{{ page.collection_url }}archive">Archive</a></div>
-            <div><a href="/">Exit</a></div>
+            <div class="navbar no-border">
+                <div><a href="{{ page.collection_url }}">{{ site.title }}</a></div>
+                <div><a href="{{ page.collection_url }}archive">Archive</a></div>
+                <div><a href="/">Exit</a></div>
+            </div>
         </div>
         <div class="right">
             {{ content }}

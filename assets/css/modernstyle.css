@@ -4,10 +4,6 @@ body {
     background-image: url("/assets/img/shared/pattern.jpg");
 }
 
-li {
-    list-style-type: none;
-}
-
 .spantitle {
     display: block;
     font-weight: normal;
@@ -15,9 +11,21 @@ li {
     margin-bottom: 0rem;
 }
 
+.post-title {
+    text-align: center;
+}
+
 .post-content {
     font-family: "Schoolbell", cursive;
     max-width: 95%;
+}
+
+.post-content > p {
+    padding: 0 .5rem;
+}
+
+.post-content > ol {
+    padding-right: .5rem;
 }
 
 .post-content img {
@@ -48,7 +56,7 @@ li {
 }
 
 
-.left > div {
+.navbar > div {
     font-family: "Schoolbell", cursive;
     font-size: 1.5rem;
     background-color: #ff9999;
@@ -60,7 +68,8 @@ li {
 
 .right {
     display: table-cell !important;
-    width: 66rem;
+    text-align: initial;
+    max-width: 66rem;
 }
 
 .no-border {
@@ -119,6 +128,11 @@ li {
     padding: 16px;
 }
 
+.markdown-body {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
 .markdown-body img {
     max-width: 95%;
 }
@@ -144,5 +158,21 @@ li {
 
     50% {
         background-position: 100% 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .left {
+        display: table-row !important;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
