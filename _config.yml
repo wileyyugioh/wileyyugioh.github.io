@@ -42,8 +42,9 @@ defaults:
         values:
             layout: "moderntags"
 
+exclude: [/vendor/, /all/]
+
 plugins:
-    - jekyll-redirect-from
     - jekyll-relative-links
     - jekyll-sitemap
 
