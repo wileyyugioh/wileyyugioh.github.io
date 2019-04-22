@@ -43,6 +43,7 @@ defaults:
             layout: "moderntags"
 
 plugins:
+    - jekyll-redirect-from
     - jekyll-relative-links
     - jekyll-sitemap
 
