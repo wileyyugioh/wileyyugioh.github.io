@@ -42,7 +42,13 @@ defaults:
         values:
             layout: "moderntags"
 
-exclude: [/vendor/, /all/]
+exclude: [
+    /vendor/,
+    CNAME,
+    Gemfile,
+    Gemfile.lock,
+    /all/,
+]
 
 plugins:
     - jekyll-relative-links
