@@ -32,8 +32,11 @@ layout: default
 </div>
 
 <script>
-    setInterval(function() {
+    const interval = 1000; // ms
+    function update() {
         document.getElementById("time").innerHTML = new Date();
-    }, 10);
-    document.getElementById("time").innerHTML = new Date();
+        let nextInterval = interval - (Date.now() % interval);
+        setTimeout(update, nextInterval);
+    }
+    update();
 </script>
