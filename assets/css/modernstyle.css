@@ -52,6 +52,10 @@ body {
     table-layout: fixed;
 }
 
+.main div {
+    vertical-align: top;
+}
+
 .left {
     display: table-cell !important;
     width: 6rem;
