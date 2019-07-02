@@ -142,6 +142,11 @@ body {
     max-width: 95%;
 }
 
+.markdown-body blockquote {
+    padding: 0 1em;
+    border-left: 0.25em solid #dfe2e5;
+}
+
 .rainbow {
     text-align: center;
     text-decoration: underline;
