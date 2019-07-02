@@ -11,27 +11,6 @@ body {
     margin-bottom: 0rem;
 }
 
-.post-title {
-    text-align: center;
-}
-
-.post-content {
-    font-family: "Schoolbell", cursive;
-    max-width: 95%;
-}
-
-.post-content > p {
-    padding: 0 .5rem;
-}
-
-.post-content > ol {
-    padding-right: .5rem;
-}
-
-.post-content img {
-    border: double purple;
-}
-
 .center-container > div {
     display: table;
     width: 95%;
@@ -50,6 +29,37 @@ body {
 .center-container > .main {
     display: table;
     table-layout: fixed;
+}
+
+.post-title {
+    text-align: center;
+}
+
+.post-content {
+    font-family: "Schoolbell", cursive;
+    max-width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.post-content > p {
+    padding: 0 .5rem;
+}
+
+.post-content > ol {
+    padding-right: .5rem;
+}
+
+.post-content img {
+    border: double purple;
+}
+
+.post-content div, .post-content ul, .post-content h1, .post-content h3 {
+    border: initial;
+    margin-top: initial;
+    margin-bottom: initial;
+    margin-left: initial;
+    margin-right: initial;
 }
 
 .main div {
@@ -143,8 +153,34 @@ body {
 }
 
 .markdown-body blockquote {
-    padding: 0 1em;
-    border-left: 0.25em solid #dfe2e5;
+    padding: 0 1rem;
+    border-left: 0.25rem solid #dfe2e5;
+}
+
+.markdown-body table {
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.markdown-body table tr {
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+.highlight {
+    background-color: #f8f8f8;
 }
 
 .rainbow {

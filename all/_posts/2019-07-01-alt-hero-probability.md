@@ -10,7 +10,7 @@ The problem is as follows: let's say I'm opening boosters for a trading card gam
 
 It kinda sounds like the [coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem), but not quite.
 
-To solve this problem, let's write every single possibility when opening N cards.
+To solve this problem, let's write down every single possibility when opening N cards.
 
 - Don't pull A and Don't pull B (Neither A nor B are pulled)
 - Pull A and Don't pull B (At least one copy of A is pulled, but none of B are pulled)
@@ -31,9 +31,9 @@ $$ 0.9994^N $$
 
 ## Pull A and Don't pull B/Pull B and Don't pull A
 
-Intuitively, we expect that the probability of *Pull A and Don't pull B* and *Pull B and Don't pull A* to be the same since they both have the same pull rates. That means we only have to solve for one of the cases! Let's solve for *Pull A and Don't pull B*.
+Intuitively, we expect that the probability of **Pull A and Don't pull B** and **Pull B and Don't pull A** to be the same since they both have the same pull rates. That means we only have to solve for one of the cases! Let's solve for **Pull A and Don't pull B**.
 
-An example of a pattern that would conform to *Pull A and Don't pull B* is
+An example of a pattern that would conform to **Pull A and Don't pull B** is
 
 ```
 A, Z, Z, ..., Z
@@ -120,7 +120,7 @@ This makes the probability of **Pull A and Pull B**, or pulling both A and B
 
 $$ 1 - 0.9994^N - 2 * \sum_{i=1}^N \binom{N}{i} * 0.0003^i * 0.9994^{N-i} $$
 
-where N is the number of cards drawn.
+where N is the number of cards pulled.
 
 Phew!
 
@@ -137,5 +137,3 @@ Below are some probabilities I calculated
 | 17650          | 0.9900                        |
 
 That's a lotta packs!
-
-```
