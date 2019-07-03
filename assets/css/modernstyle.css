@@ -197,6 +197,10 @@ body {
     background-size: 400% 100%;
 }
 
+.MathJax_Display {
+    overflow-x: scroll;
+}
+
 @keyframes rainbow-animation {
     0%,100% {
         background-position: 0 0;
