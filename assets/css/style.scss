@@ -15,5 +15,6 @@ html {
 }
 
 .MathJax_Display {
-    overflow-x: scroll;
+    overflow: auto;
+    overflow-y: hidden;
 }

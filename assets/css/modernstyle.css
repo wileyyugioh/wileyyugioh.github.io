@@ -198,7 +198,8 @@ body {
 }
 
 .MathJax_Display {
-    overflow-x: scroll;
+    overflow: auto;
+    overflow-y: hidden;
 }
 
 @keyframes rainbow-animation {
