@@ -65,7 +65,7 @@ $$ 0.9994 * 0.0003 * 0.9994 * \ldots * 0.9994 $$
 
 Wait a minute, since the order of multiplication doesn't matter–this probability is the same as the previous pattern! That means we can deduce that the probability of pulling **one** A is the same no matter what order we pull the A! Since there are N possible combinations of forming a pattern with one A, that means the total probability for pulling one A is
 
-$$ N * 0.0003 * 0.9994^{399} $$
+$$ N * 0.0003 * 0.9994^{N-1} $$
 
 Cool, let's do it with two A's.
 
