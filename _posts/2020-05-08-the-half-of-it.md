@@ -29,4 +29,4 @@ To college! Just like in *Love, Simon*!
 
 ---
 
-Overall, I would rate *The Half Of It* higher than `Crazy Rich Asians`. Go see it if the premise sounds interesting.
+Overall, I would rate *The Half Of It* higher than *Crazy Rich Asians*. Go see it if the premise sounds interesting.
