@@ -26,6 +26,7 @@ After some thought, I think that I shouldn't overanalyze it and just take it as 
 Ending was sort of interesting. The transformation of Chu's view of Squahamish from a hated place to a source of anticipation got a few neurons firing. I guess it shows Chu's frustration was not with the town itself, but rather herself? Maybe the reason everybody hated Squahamish was because it never changed due to the townsfolks' apathy. I'm not smart enough to be sure.
 
 To college! Just like in *Love, Simon*!
+
 ---
 
 Overall, I would rate *The Half Of It* higher than `Crazy Rich Asians`. Go see it if the premise sounds interesting.
