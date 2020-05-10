@@ -1,5 +1,5 @@
 ---
-title: "<i>The Half Of It</i> Thoughts"
+title: "<em>The Half Of It</em> Thoughts"
 tags: movie
 ---
 
