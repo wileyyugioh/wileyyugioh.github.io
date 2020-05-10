@@ -1,5 +1,5 @@
 ---
-title: The Half Of It Thoughts
+title: "<i>The Half Of It</i> Thoughts"
 tags: movie
 ---
 
@@ -29,4 +29,4 @@ To college! Just like in *Love, Simon*!
 
 ---
 
-Overall, I would rate *The Half Of It* higher than *Crazy Rich Asians*. Go see it if the premise sounds interesting.
+Overall, I would rate *The Half Of It* **better** than *Crazy Rich Asians*. Go see it if the premise sounds interesting.
