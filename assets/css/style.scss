@@ -18,3 +18,16 @@ html {
     overflow: auto;
     overflow-y: hidden;
 }
+
+#page-title {
+    margin-right: 5rem;   
+}
+
+#page-nav {
+    display: inline-flex;
+    font-size:1.2rem;
+}
+
+#page-nav a {
+    margin-right: 2rem
+}

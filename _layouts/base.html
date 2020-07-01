@@ -4,9 +4,11 @@ layout: default
 
 {% if site.title and site.title != page.title %}
 <h1>
-    <a href="{{ page.collection_url }}">{{ site.title }}</a>
-    <a href="{{ page.collection_url }}archive" style="font-size:1.2rem; margin-left: 5rem;">Archive</a>
-    <a href="{{ page.collection_url }}tags" style="font-size:1.2rem; margin-left: 2rem">Tags</a>
+    <a href="{{ page.collection_url }}" id="page-title">{{ site.title }}</a>
+    <span id="page-nav">
+        <a href="{{ page.collection_url }}archive">Archive</a>
+        <a href="{{ page.collection_url }}tags">Tags</a>
+    </span>
 </h1>
 {% endif %}
 
