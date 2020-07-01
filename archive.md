@@ -2,7 +2,7 @@
 title: Archive
 ---
 
-<h3 class="rainbow rainbow-text-animated">Archive</h3>
+<h1 class="rainbow rainbow-text-animated">Archive</h1>
 
 <ul>
     {% for post in site.categories[page.category] %}

@@ -19,9 +19,14 @@ defaults:
             layout: "posts"
     -
         scope:
-            path: "tag"
+            path: "tags"
         values:
             layout: "tags"
+    -
+        scope:
+            path: "tags/index.md"
+        values:
+            layout: "base"
     -
         scope:
             path: "modern"
@@ -38,9 +43,14 @@ defaults:
             layout: "modernposts"
     -
         scope:
-            path: "modern/tag"
+            path: "modern/tags"
         values:
             layout: "moderntags"
+    -
+        scope:
+            path: "modern/tags/index.md"
+        values:
+            layout: "modernbase"
 
 exclude: [
     /vendor/,

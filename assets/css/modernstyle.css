@@ -91,7 +91,7 @@ body {
     border: none !important;
 }
 
-.center-container h3 {
+.center-container h1, .center-container h3 {
     font-size: 3rem;
 }
 

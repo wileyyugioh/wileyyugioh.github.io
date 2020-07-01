@@ -14,7 +14,7 @@ layout: modernbase
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     {% if forloop.first != true %}&nbsp;{% endif %}
-    <a href="{{ page.collection_url }}tag/{{ tag_name }}"><code style="white-space: nowrap;">{{ tag_name }}</code></a>
+    <a href="{{ page.collection_url }}tags/{{ tag_name }}"><code style="white-space: nowrap;">{{ tag_name }}</code></a>
   {% endfor %}
 </span>
 </h1>

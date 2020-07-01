@@ -10,6 +10,6 @@ layout: base
     <li>{% include pretty_date.md date=post.date %}: <a href="{{ post.url }}">{{ post.title }}</a> {{ post.description }}</li>
     {% endif %}
 {% endfor %}
+<li><a href="{{ page.collection_url }}tags"><strong>All Tags</strong></a></li>
 </ul>
 </div>
-<hr>
