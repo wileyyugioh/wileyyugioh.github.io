@@ -12,7 +12,7 @@ The most compact arrangement of people is this:
     <img src="/assets/img/2021-04-07/image1.png" alt="Arrangement" width="256">
 </p>
 
-For a single square, this arrangement has $ 1 * 1 + 4 * \frac{1}{4} = 2\,people $ (think of each person on the corner as a quarter of a person).
+For a single square, this arrangement has $ 1 * 1 + 4 * \frac{1}{4} = 2\,people $ (think of each person in the corner as a quarter of a person).
 
 The area of this square for a social distance of six feet is $ {\frac{2*6}{\sqrt{2}}}^2 = 2 * 36 = 72\,ft\,squared $.
 
@@ -25,5 +25,7 @@ For reference, the most densely populated city, Manilla, has a density of [$ 107
 So for 8 billion people:
 
 $$ \frac{8B}{} * \frac{1\,mi^2}{774,400\,people} \approx 10,300\,mi^2 $$
+
+To put this in perspective, [the state of Virginia is about 10k square miles](https://statesymbolsusa.org/symbol-official-item/national-us/uncategorized/states-size).
 
 This was a waste of time, and nothing new was learned.
