@@ -24,7 +24,7 @@ For reference, the most densely populated city, Manilla, has a density of [$ 107
 
 So for 8 billion people:
 
-$$ \frac{8B}{} * \frac{1\,mi^2}{774,400\,people} \approx 10,300\,mi^2 $$
+$$ \frac{8B\, people}{} * \frac{1\,mi^2}{774,400\,people} \approx 10,300\,mi^2 $$
 
 To put this in perspective, [the state of Maryland is about 10k square miles](https://statesymbolsusa.org/symbol-official-item/national-us/uncategorized/states-size).
 
