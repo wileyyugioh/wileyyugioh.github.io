@@ -2,15 +2,7 @@
 title: Home
 ---
 
-<h3 class="rainbow rainbow-text-animated">Stuff I've done</h3>
-
-- [birddb - a crowd-sourced database of birds (may be down if I run out of hosting credit)](https://github.com/wileyyugioh/birddb)
-
-- [NylonSock - a C++ networking library in the style of socket.io](https://github.com/wileyyugioh/NylonSock)
-
-- [Osu-Touchpad - a tablet emulator for mobile devices using Node.js](https://github.com/wileyyugioh/Osu-Touchpad)
-
-<h3 class="rainbow rainbow-text-animated">Writeups I think are neat</h3>
+<h3 class="rainbow rainbow-text-animated">Posts</h3>
 
 <ul>
     {% for post in site.categories[page.category] limit:5 %}
@@ -20,3 +12,10 @@ title: Home
     {% endfor %}
     <li><a href="{{ page.collection_url }}archive"><strong>Archive</strong></a></li>
 </ul>
+
+<h3 class="rainbow rainbow-text-animated">About Me</h3>
+
+- My name is Wiley Yu.
+- I have unironically caused significant harm to the international anime community.
+- I can sometimes cook a French omelette.
+- I never update this blog.

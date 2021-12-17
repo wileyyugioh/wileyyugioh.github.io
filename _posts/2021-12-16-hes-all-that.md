@@ -1,0 +1,29 @@
+---
+title: "<em>He's All That</em> Analysis"
+tags: movie
+---
+*He's All That* is the best type of cinema—a deceptive one. Director Mark Waters both intentionally and unintentionally uses irony through the lens of meta-commentary to critique influencer culture and question its relevance in modern society.
+
+The film revolves around Padget Sawyer (Addison Rae), an internet influencer who has achieve significant cultural and financial success through internet live-streaming. After Padget's messy break-up with her boyfriend is accidentally live-streamed, Padget is mocked and shunned by the internet, losing all of her internet fame and success. Resolved to regain her reputation and confidence, Padget accepts a bet where she will transform high school loser Cameron Kweller (Tanner Buchanan) into prom king. Over the course of this "transformation", Padget becomes closer with Cameron and eventually falls in love with him. But when Cameron learns of the true nature of their relationship, he breaks it off. Padget learns of the value of true relationships and through a heartfelt speech on the night of the prom wins Cameron's heart back. Or something like that.
+
+Let's start with the casting. You know, I know, Waters knows, and Netflix knows that nobody would give a shit about this movie if Addison Rae wasn't in it. The irony is that the movie itself rejects influencer culture while simultaneously solely achieving success and recognizability because of this. This is not simply a coincidence from poor screen-writing, no, not at all. Waters is actually smartly observing that the rejection of influencer culture is itself a part of influencer culture! For example, Ariana Grande wearing sweat shirts, Drake pretending he is poor, "we're all in this together," etc. Through this juxtaposition of seemingly conflicting messages, Waters forces the viewers to cut through the facade of perceived relatableness and makes us question the disparity between the internet elite and ourselves.
+
+<p style="text-align:center">
+    <img src="/assets/img/2021-12-16/grande.jpg" alt="Ariana Grande Live-stream" width="512">
+</p>
+
+Indeed, Waters not only makes the viewer observe the gap between the famous and ourselves, but smartly observes and rejects the idea of fame meritocracy. Padget's ex-boyfriend Jordan Van Draanen (Peyton Meyer) who is also a famous internet celebrity did not achieve famedom from his hard work or talent, which the movie painfully demonstrates through his terrible music. Rather, he became famous through Padget's relentless promotion and public relation skills. Padget created the influencer. Man maketh man. But this trend is not a fictional construct created solely to push the plot of *He's All That* forward, but rather a nod towards the same practice that is common in the music industry and Hollywood. Look at any actor or musician's Wikipedia page for example. There is an extremely high chance they have extremely influential parents who essentially "bought" their child a career. Billie Eilish is not like you or me. And Waters knows this. Indeed, the whole movie revolves around transforming Cameron from a Redditor to a well-beloved high school legend. Some may argue that Padget did not transform Cameron, but rather revealed his true nature to the rest of his classmates. This is laughable. At the beginning of the movie, Cameron was a stereotypical edgy teenage loser, taking photos of trash and smarmily spitting insults to his peers. At the end, he is clearly a different person and even his sister observes this, telling him (and the audience) directly.
+
+A more interesting aspect of influencer culture the movie is seemingly hypocritical about is sponsorships. The first scene of the movie revolves around Padget advertising a make-up company to her thousands of viewers, demonstrating the significance in advertising in an influencer’s life. But when she loses her sponsors and ability to pay for her mother’s household bills and college as a consequence of her embarrassing live-stream, the film interestingly takes on a sympathetic view towards sponsors itself. When the beauty company decides to drop Padget, it is not portrayed as a malicious act, but rather a natural consequence of the process that is business. Indeed, Padget does not react to this abandonment with frustration or bitterness, but rather like a desperate ex trying to claw her way back to their good graces. Is Waters making a claim about capitalism and how the philosophy of “just doing business” creates a masochistic mindset that harms individuals while sympathetically benefitting big companies? No. The film is rife with sponsorships, where high schoolers eat Sun Chips and Pizza Hut while sipping on Voss water or something like that.
+
+<p style="text-align:center">
+    <img src="/assets/img/2021-12-16/image1.png" alt="Students eating KFC" width="512">
+</p>
+
+*He’s All That* appears to reject the influencer lifestyle while simultaneously embracing the problematic corporate marketing machine that benefits from it. The reason the movie possesses this hypocritical message is because the movie itself *is* a part of the marketing machine. Without Ulta and PepsiCo funding the payroll, Mark Waters would be directing jack shit. The movie cannot justify this cognitive dissonance, and rather chooses to ignore it, unintentionally reflecting how individuals in a society view themselves in relationship to corporations.
+
+There is of course more to say about how the movie discusses the place of the individual in the modern internet landscape, but it is getting late. In short, *He’s All That* is a masterpiece with commentary this is created both intentionally and unintentionally by the scriptwriters. I look forward to its inevitable acceptance to the National Film Registry.
+
+---
+
+Overall, I would rate it **better** than *La La Land*.
