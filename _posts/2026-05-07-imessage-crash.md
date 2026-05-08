@@ -12,7 +12,6 @@ Change directory, make a backup, and open the database.
 cd ~/Library/Messages
 cp chat.db chat.db.bak
 sqlite3 chat.db
-
 ```
 
 
